@@ -1,0 +1,140 @@
+body{
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Arial Narrow';
+  background-color: aquamarine;
+}
+
+header {
+  background-color: #3e8e41;
+  color: whitesmoke;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #29a02d;
+}
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+  
+button:active {
+  transform: translateY(2px);
+  background-color: #2a7a2c;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  background-color: #3e8e41;
+  color: black;
+  border-radius: 2px;
+}
+
+#InputField {
+  width: 350px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  border: solid #a1d4a3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#InputField:focus {
+  border:solid #29a02d;
+}
+
+.additionalSection {
+  font-family: Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.CelciuskeFahrenheit {
+  font-family: sans-serif;
+  margin-top: 30px;
+  text-align: justify;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.FahrenheitkeCelcius {
+  font-family: sans-serif;
+  margin-top: 60px;
+  text-align: justify;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.divider {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.InputSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.InputButton {
+  display: flex;
+  flex-direction: row;
+  align-self: left;
+}
+
+.resultSection {
+  display: flex;
+  flex-direction: column;
+}
+
+#fahrenheitOutput {
+  width: 350px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  border: solid #4caf50;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formulaSection {
+  display: flex;
+  flex-direction: column;
+}
+
+#formula {
+  width: 350px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 8px;
+  border: solid #4caf50;
+  padding: 10px;
+  margin-bottom: 8px;
+}

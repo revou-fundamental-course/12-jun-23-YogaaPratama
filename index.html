@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Konversi Suhu</title>
+
+  <!-- Akses ke CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Bagian header -->
+    <header>
+        <h1>Konversi Suhu</h1>
+    </header>
+
+    <!-- Bagian additionalSection -->
+    <section class="additionalSection">
+        <p>
+            Masukkan suhu derajat Celsius (°C) ke dalam kotak di bawah ini,
+            lalu klik tombol "Konversi" untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).
+            Untuk mengkonversi suhu dari Fahrenheit ke Celsius, klik tombol "Reverse".
+            Gunakan tombol "Reset" untuk menghapus masukan dan hasil konversi.
+        </p>
+    </section>
+
+    <!-- Bagian InputSection -->
+    <section class="InputSection">
+        <label for="InputField">Celsius (°C):</label>
+        <input type="number" id="InputField"/>
+        <div class="InputButton">
+            <button>Konversi</button>
+            <button>Reset</button>
+            <button>Reverse</button>
+        </div>
+    </section>
+
+    <!-- Bagian resultSection -->
+    <section class="resultSection">
+        <label for="nameLabel">Fahrenheit (°F):</label>
+        <input type="number" id="fahrenheitOutput" readonly>
+    </section>
+
+    <!-- Bagian formulaSection -->
+    <section class="formulaSection">
+        <label for="nameLabel">Cara Kalkulasi:</label>
+        <input type="text" id="formula" readonly>
+    </section>
+
+    <!-- Bagian Cara Konversi Celcius ke Fahrenheit -->
+    <section class="CelciuskeFahrenheit">
+        <h2>Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</h2>
+        <hr class="divider">
+        <p>
+            Suhu S dalam derajat Celsius (°C) dikali 9/5 ditambah 32 sama dengan suhu S dalam derajat Fahrenheit (°F).
+        </p>
+
+        <p>
+            (S<sub>(°C)</sub> x 9/5) + 32 = S<sub>(°F)</sub>
+        </p>
+    </section>
+
+    <!-- Bagian Cara Konversi Fahrenheit ke Celcius -->
+    <section class="FahrenheitkeCelcius">
+        <h2>Cara Konversi Dari Fahrenheit (°F) ke Celsius (°C)</h2>
+        <hr class="divider">
+        <p>
+            Suhu S dalam derajat Fahrenheit (°F) dikurang 32 dikali 5/9 sama dengan suhu S dalam derajat Celsius (°C).
+        </p>
+
+        <p>
+            (S<sub>(°F)</sub> - 32) x 5/9 = S<sub>(°C)</sub>
+        </p>
+    </section>
+
+    <!-- Bagian footer -->
+    <footer>
+        <p>&copy; Ilham Yoga Pratama<br>
+        <a href="mailto:yogapratamabuma@gmail.com">yogapratamabuma@gmail.com</a></p>
+    </footer>
+
+    <!-- Akses ke JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
